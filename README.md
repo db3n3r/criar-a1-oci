@@ -65,3 +65,5 @@ grep SUCESSO ~/criar-a1/criar-a1.log
 - Libere a porta 22 para o seu IP na Security List ou NSG da subnet.
 - Remova a API key do painel e apague `~/.oci` se não for mais usar a CLI.
 - **Não passe de 2 OCPUs / 12 GB** nem de 200 GB de disco somando todas as instâncias, para continuar gratuito.
+
+  Creditos :   nicolaudev-hub 
