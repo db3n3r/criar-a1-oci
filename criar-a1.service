@@ -1,0 +1,15 @@
+[Unit]
+Description=Tenta criar a instância Ampere A1 na OCI
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=ubuntu
+WorkingDirectory=/home/ubuntu/criar-a1
+ExecStart=/home/ubuntu/criar-a1/criar-a1.sh
+Restart=on-failure
+RestartSec=600
+
+[Install]
+WantedBy=multi-user.target
